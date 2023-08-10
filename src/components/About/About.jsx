@@ -32,13 +32,12 @@ const About = () => {
                         </article>
                     </div>
                     <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Ipsa, harum. Eaque, consectetur repellat? Eos
-                        ipsum eum iusto, nisi porro soluta nihil accusamus
-                        corrupti rerum ducimus culpa laborum similique tenetur
-                        eius, veritatis fugiat debitis vitae eligendi. Corporis
-                        sit saepe minima laboriosam modi eum sint atque, fugit
-                        itaque excepturi, illo delectus rerum!
+                        As a recent graduate of Fullstack Development Bootcamp,
+                        I am excited to bring my newly acquired skills and
+                        knowledge to a junior full stack development position.
+                        With a strong foundation in full stack development, I am
+                        eager to collaborate with a team to create innovative
+                        and efficient solutions.
                     </p>
 
                     <a href="#contact" className="btn btn-primary">
