@@ -15,6 +15,7 @@ const Nav = () => {
                 href="#"
                 onClick={() => setActiveNav("#")}
                 className={activeNav === "#" ? "active" : ""}
+                rel="noreferrer"
             >
                 <AiOutlineHome />
             </a>
@@ -22,6 +23,7 @@ const Nav = () => {
                 href="#about"
                 onClick={() => setActiveNav("#about")}
                 className={activeNav === "#about" ? "active" : ""}
+                rel="noreferrer"
             >
                 <AiOutlineUser />
             </a>
@@ -29,6 +31,7 @@ const Nav = () => {
                 href="#experience"
                 onClick={() => setActiveNav("#experience")}
                 className={activeNav === "#experience" ? "active" : ""}
+                rel="noreferrer"
             >
                 <BiBook />
             </a>
@@ -36,6 +39,7 @@ const Nav = () => {
                 href="#portfolio"
                 onClick={() => setActiveNav("#portfolio")}
                 className={activeNav === "#portfolio" ? "active" : ""}
+                rel="noreferrer"
             >
                 <HiOutlineCollection />
             </a>
