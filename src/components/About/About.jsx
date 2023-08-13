@@ -42,6 +42,8 @@ const About = () => {
 
                     <a
                         href="https://www.linkedin.com/in/artur-labenskyy-72590224b/"
+                        rel="noreferrer"
+                        target="_blank"
                         className="btn btn-primary"
                     >
                         Let's Talk
