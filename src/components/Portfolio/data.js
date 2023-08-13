@@ -2,13 +2,14 @@ import IMG1 from "../../assets/portfolio1.jpg";
 import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
 import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
+import IMG5 from "../../assets/portfolio5.jpg";
 import IMG6 from "../../assets/portfolio6.jpg";
+import IMG7 from "../../assets/portfolio7.png";
 
 export const data = [
     {
         id: 7,
-        image: IMG1,
+        image: IMG7,
         title: "Harmony Project",
         github: "https://github.com/Makes-Innovation-Hub/harmony",
         demo: "http://harmonymusic.tech/",
@@ -56,28 +57,3 @@ export const data = [
         demo: "https://vote-for-house.netlify.app/",
     },
 ];
-
-{
-    /* <article className="portfolio-item">
-<div className="portfolio-item-image">
-    <img src={IMG1} alt="image 1" />
-</div>
-<h3>Vanilla JS MineCraft 2D</h3>
-<div className="portfolio-item-cta">
-    <a
-        href="https://github.com/ArturLabenskyy/Weekend-6_Minecraft"
-        className="btn"
-        target="_black"
-    >
-        Github
-    </a>
-    <a
-        href="https://minecrafting.netlify.app"
-        className="btn btn-primary"
-        target="_blank"
-    >
-        Live Demo
-    </a>
-</div>
-</article> */
-}

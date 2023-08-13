@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 
 import "./nav.css";
-import { AiOutlineHome, AiOutlineUser, AiOutlineMessage } from "react-icons/ai";
+import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
 import { HiOutlineCollection } from "react-icons/hi";
 
@@ -38,13 +38,6 @@ const Nav = () => {
                 className={activeNav === "#portfolio" ? "active" : ""}
             >
                 <HiOutlineCollection />
-            </a>
-            <a
-                href="#contact"
-                onClick={() => setActiveNav("#contact")}
-                className={activeNav === "#contact" ? "active" : ""}
-            >
-                <AiOutlineMessage />
             </a>
         </nav>
     );

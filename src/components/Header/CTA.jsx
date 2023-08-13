@@ -8,7 +8,11 @@ const CTA = () => {
             <a href={CV} className="btn">
                 Download CV
             </a>
-            <a href="#contact" className="btn btn-primary">
+            <a
+                href="https://www.linkedin.com/in/artur-labenskyy-72590224b/"
+                target="_blank"
+                className="btn btn-primary"
+            >
                 Let's talk
             </a>
         </div>
