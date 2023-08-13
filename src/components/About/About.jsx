@@ -40,7 +40,10 @@ const About = () => {
                         and efficient solutions.
                     </p>
 
-                    <a href="#contact" className="btn btn-primary">
+                    <a
+                        href="https://www.linkedin.com/in/artur-labenskyy-72590224b/"
+                        className="btn btn-primary"
+                    >
                         Let's Talk
                     </a>
                 </div>
