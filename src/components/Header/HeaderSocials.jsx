@@ -7,14 +7,23 @@ const HeaderSocial = () => {
         <div className="header-socials">
             <a
                 href="https://www.linkedin.com/in/artur-labenskyy"
+                rel="noreferrer"
                 target="_blank"
             >
                 <BsLinkedin />
             </a>
-            <a href="https://github.com/ArturLabenskyy" target="_blank">
+            <a
+                href="https://github.com/ArturLabenskyy"
+                rel="noreferrer"
+                target="_blank"
+            >
                 <BsGithub />
             </a>
-            <a href="https://www.instagram.com/__ar2r___" target="_blank">
+            <a
+                href="https://www.instagram.com/__ar2r___"
+                rel="noreferrer"
+                target="_blank"
+            >
                 <BsInstagram />
             </a>
         </div>

@@ -12,34 +12,34 @@ const Nav = () => {
     return (
         <nav>
             <a
-                href="#"
+                href="/#"
+                rel="noreferrer"
                 onClick={() => setActiveNav("#")}
                 className={activeNav === "#" ? "active" : ""}
-                rel="noreferrer"
             >
                 <AiOutlineHome />
             </a>
             <a
                 href="#about"
+                rel="noreferrer"
                 onClick={() => setActiveNav("#about")}
                 className={activeNav === "#about" ? "active" : ""}
-                rel="noreferrer"
             >
                 <AiOutlineUser />
             </a>
             <a
                 href="#experience"
+                rel="noreferrer"
                 onClick={() => setActiveNav("#experience")}
                 className={activeNav === "#experience" ? "active" : ""}
-                rel="noreferrer"
             >
                 <BiBook />
             </a>
             <a
                 href="#portfolio"
+                rel="noreferrer"
                 onClick={() => setActiveNav("#portfolio")}
                 className={activeNav === "#portfolio" ? "active" : ""}
-                rel="noreferrer"
             >
                 <HiOutlineCollection />
             </a>

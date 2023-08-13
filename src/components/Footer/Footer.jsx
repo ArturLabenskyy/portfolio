@@ -7,13 +7,13 @@ import logo from "../../assets/logo.png";
 const Footer = () => {
     return (
         <footer>
-            <a href="#" className="footer-logo">
+            <a href="/#" className="footer-logo">
                 <img src={logo} alt="logo" className="logo" />
             </a>
 
             <ul className="permalinks">
                 <li>
-                    <a href="#">Home</a>
+                    <a href="/#">Home</a>
                 </li>
                 <li>
                     <a href="#about">About</a>
@@ -26,14 +26,23 @@ const Footer = () => {
             <div className="footer-socials">
                 <a
                     href="https://www.linkedin.com/in/artur-labenskyy"
+                    rel="noreferrer"
                     target="_blank"
                 >
                     <BsLinkedin />
                 </a>
-                <a href="https://github.com/ArturLabenskyy" target="_blank">
+                <a
+                    href="https://github.com/ArturLabenskyy"
+                    rel="noreferrer"
+                    target="_blank"
+                >
                     <BsGithub />
                 </a>
-                <a href="https://www.instagram.com/__ar2r___" target="_blank">
+                <a
+                    href="https://www.instagram.com/__ar2r___"
+                    rel="noreferrer"
+                    target="_blank"
+                >
                     <BsInstagram />
                 </a>
             </div>
