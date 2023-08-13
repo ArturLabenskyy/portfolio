@@ -21,20 +21,132 @@ const Portfolio = () => {
                         <img src={IMG1} alt="image 1" />
                     </div>
                     <h3>This is a portfolio item title</h3>
-                    <a
-                        href="https://github.com/ArturLabenskyy"
-                        className="btn"
-                        target="_black"
-                    >
-                        Github
-                    </a>
-                    <a
-                        href="https://github.com/ArturLabenskyy"
-                        className="btn-primary"
-                        target="_blank"
-                    >
-                        Live Demo
-                    </a>
+                    <div className="portfolio-item-cta">
+                        <a
+                            href="https://github.com/ArturLabenskyy"
+                            className="btn"
+                            target="_black"
+                        >
+                            Github
+                        </a>
+                        <a
+                            href="https://github.com/ArturLabenskyy"
+                            className="btn btn-primary"
+                            target="_blank"
+                        >
+                            Live Demo
+                        </a>
+                    </div>
+                </article>
+                <article className="portfolio-item">
+                    <div className="portfolio-item-image">
+                        <img src={IMG2} alt="image 1" />
+                    </div>
+                    <h3>This is a portfolio item title</h3>
+                    <div className="portfolio-item-cta">
+                        <a
+                            href="https://github.com/ArturLabenskyy"
+                            className="btn"
+                            target="_black"
+                        >
+                            Github
+                        </a>
+                        <a
+                            href="https://github.com/ArturLabenskyy"
+                            className="btn btn-primary"
+                            target="_blank"
+                        >
+                            Live Demo
+                        </a>
+                    </div>
+                </article>
+                <article className="portfolio-item">
+                    <div className="portfolio-item-image">
+                        <img src={IMG3} alt="image 1" />
+                    </div>
+                    <h3>This is a portfolio item title</h3>
+                    <div className="portfolio-item-cta">
+                        <a
+                            href="https://github.com/ArturLabenskyy"
+                            className="btn"
+                            target="_black"
+                        >
+                            Github
+                        </a>
+                        <a
+                            href="https://github.com/ArturLabenskyy"
+                            className="btn btn-primary"
+                            target="_blank"
+                        >
+                            Live Demo
+                        </a>
+                    </div>
+                </article>
+                <article className="portfolio-item">
+                    <div className="portfolio-item-image">
+                        <img src={IMG4} alt="image 1" />
+                    </div>
+                    <h3>This is a portfolio item title</h3>
+                    <div className="portfolio-item-cta">
+                        <a
+                            href="https://github.com/ArturLabenskyy"
+                            className="btn"
+                            target="_black"
+                        >
+                            Github
+                        </a>
+                        <a
+                            href="https://github.com/ArturLabenskyy"
+                            className="btn btn-primary"
+                            target="_blank"
+                        >
+                            Live Demo
+                        </a>
+                    </div>
+                </article>
+                <article className="portfolio-item">
+                    <div className="portfolio-item-image">
+                        <img src={IMG5} alt="image 1" />
+                    </div>
+                    <h3>This is a portfolio item title</h3>
+                    <div className="portfolio-item-cta">
+                        <a
+                            href="https://github.com/ArturLabenskyy"
+                            className="btn"
+                            target="_black"
+                        >
+                            Github
+                        </a>
+                        <a
+                            href="https://github.com/ArturLabenskyy"
+                            className="btn btn-primary"
+                            target="_blank"
+                        >
+                            Live Demo
+                        </a>
+                    </div>
+                </article>
+                <article className="portfolio-item">
+                    <div className="portfolio-item-image">
+                        <img src={IMG6} alt="image 1" />
+                    </div>
+                    <h3>This is a portfolio item title</h3>
+                    <div className="portfolio-item-cta">
+                        <a
+                            href="https://github.com/ArturLabenskyy"
+                            className="btn"
+                            target="_black"
+                        >
+                            Github
+                        </a>
+                        <a
+                            href="https://github.com/ArturLabenskyy"
+                            className="btn btn-primary"
+                            target="_blank"
+                        >
+                            Live Demo
+                        </a>
+                    </div>
                 </article>
             </div>
         </section>
