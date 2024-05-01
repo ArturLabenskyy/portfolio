@@ -25,7 +25,7 @@ const Footer = () => {
 
             <div className="footer-socials">
                 <a
-                    href="https://www.linkedin.com/in/artur-labenskyy"
+                    href="https://www.linkedin.com/in/labenskyy"
                     rel="noreferrer"
                     target="_blank"
                 >
